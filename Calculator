@@ -1,0 +1,20 @@
+#Calculator Project with user input. only takes two numbers for now.
+def calculator(number):
+    if number == 1:
+        sum = (num1 * num2)
+    elif number == 2:
+        sum = (num1 + num2)
+    elif number == 3:
+        sum = (num1 - num2)
+    elif number == 4:
+        sum = (num1 / num2)
+    return(sum)
+    
+number = int(input("i am your calculator choose an option:\n1. multilpy\n2. Add\n3. Subtract\n4. divide\noption:"))
+
+num1 = int(input("what is your first number?"))
+num2 = int(input("what is your second number?"))
+
+sum = calculator(number)
+
+print("this is the total:{}".format(sum))
